@@ -508,22 +508,24 @@ export default function StompersApp() {
                   ))}
                   
                   {/* Calendar days */}
-                  {Array.from({ length: 35 }, (_, i) => {
-                    // September 2026 starts on Tuesday (day 2 of week)
-                    // Days 0-1: Previous month (Aug 30-31)
-                    // Days 2-31: September 1-30
-                    // Days 32-34: Next month (Oct 1-3)
+                  {Array.from({ length: 42 }, (_, i) => {
+                    // Calculate what day of week the 1st falls on
+                    // October 2026: 1st is Thursday (day 4)
+                    // September 2026: 1st is Tuesday (day 2)
+                    const firstDayOfWeek = selectedMonth === 'october' ? 4 : 2;
                     
-                    if (i < 1) {
+                    if (i < firstDayOfWeek) {
                       // Previous month days
+                      const prevMonthDays = selectedMonth === 'october' ? 30 : 31;
+                      const dayNum = prevMonthDays - (firstDayOfWeek - 1 - i);
                       return (
                         <div key={`prev-${i}`} className="text-center text-gray-600 text-xs md:text-sm w-8 h-8 md:w-10 md:h-10 flex items-center justify-center">
-                          {30 + i}
+                          {dayNum}
                         </div>
                       );
-                    } else if (i < monthData.challenge.totalDays + 1) {
+                    } else if (i < monthData.challenge.totalDays + firstDayOfWeek) {
                       // Challenge days
-                      const day = i;
+                      const day = i - firstDayOfWeek + 1;
                       const isAvailable = day <= monthData.challenge.currentDay;
                       const isSelected = selectedDay === day;
                       const isToday = day === monthData.challenge.currentDay;
@@ -548,9 +550,10 @@ export default function StompersApp() {
                       );
                     } else {
                       // Next month days
+                      const nextMonthDay = i - monthData.challenge.totalDays - firstDayOfWeek + 1;
                       return (
                         <div key={`next-${i}`} className="text-center text-gray-600 text-xs md:text-sm w-8 h-8 md:w-10 md:h-10 flex items-center justify-center">
-                          {i - 30}
+                          {nextMonthDay}
                         </div>
                       );
                     }
