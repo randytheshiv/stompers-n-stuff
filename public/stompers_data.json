@@ -1,4 +1,4 @@
-
+{
   "currentMonth": "october",
   "months": {
     "september": {
@@ -875,7 +875,7 @@
         "startDate": "2026-10-01",
         "endDate": "2026-10-31",
         "totalDays": 31,
-        "currentDay": 10,
+        "currentDay": 18,
         "prizePool": 500,
         "prizes": {
           "1st": 150,
@@ -955,6 +955,54 @@
           "condition": "Partly Cloudy",
           "emoji": "⛅",
           "humidity": 61
+        },
+        "11": {
+          "temp": 68,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 62
+        },
+        "12": {
+          "temp": 71,
+          "condition": "Sunny",
+          "emoji": "☀️",
+          "humidity": 55
+        },
+        "13": {
+          "temp": 70,
+          "condition": "Cloudy",
+          "emoji": "☁️",
+          "humidity": 60
+        },
+        "14": {
+          "temp": 72,
+          "condition": "Sunny",
+          "emoji": "☀️",
+          "humidity": 54
+        },
+        "15": {
+          "temp": 69,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 62
+        },
+        "16": {
+          "temp": 73,
+          "condition": "Sunny",
+          "emoji": "☀️",
+          "humidity": 52
+        },
+        "17": {
+          "temp": 71,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 59
+        },
+        "18": {
+          "temp": 68,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 62
         }
       },
       "dailyData": {
@@ -1116,6 +1164,118 @@
             "Sonia Shiv": 7410,
             "Amelia Sookoo": 4053,
             "Shivaani": 3994,
+            "Tiffenii Devi": 0,
+            "Ray Sawh U": 0
+          }
+        },
+        "11": {
+          "competition": {
+            "Randy Shiv": 20597,
+            "Goat InYuhThroat": 14929,
+            "Sonia Shiv": 11971,
+            "Shivaani": 6272,
+            "Boor Paani": 6217.5,
+            "Amelia Sookoo": 3967,
+            "Reshma": 1773,
+            "Rodrick Lalloo": 1052,
+            "Tiffenii Devi": 0,
+            "Ray Sawh U": 0
+          }
+        },
+        "12": {
+          "competition": {
+            "Randy Shiv": 26076.5,
+            "Rodrick Lalloo": 21835,
+            "Goat InYuhThroat": 18962,
+            "Sonia Shiv": 9030,
+            "Reshma": 6327,
+            "Amelia Sookoo": 6081,
+            "Tiffenii Devi": 5184,
+            "Boor Paani": 5009,
+            "Shivaani": 4245,
+            "Ray Sawh U": 3566
+          }
+        },
+        "13": {
+          "competition": {
+            "Randy Shiv": 17006.5,
+            "Sonia Shiv": 13726,
+            "Reshma": 12648,
+            "Rodrick Lalloo": 11547.5,
+            "Goat InYuhThroat": 9877,
+            "Boor Paani": 7840,
+            "Shivaani": 7549,
+            "Amelia Sookoo": 5610,
+            "Ray Sawh U": 4060,
+            "Tiffenii Devi": 3031
+          }
+        },
+        "14": {
+          "competition": {
+            "Randy Shiv": 25501.5,
+            "Rodrick Lalloo": 20510.5,
+            "Ray Sawh U": 12580,
+            "Sonia Shiv": 11833,
+            "Goat InYuhThroat": 10434,
+            "Shivaani": 8157,
+            "Reshma": 6617,
+            "Boor Paani": 4292,
+            "Amelia Sookoo": 3224,
+            "Tiffenii Devi": 2273
+          }
+        },
+        "15": {
+          "competition": {
+            "Randy Shiv": 17599,
+            "Sonia Shiv": 15138,
+            "Rodrick Lalloo": 14234.5,
+            "Goat InYuhThroat": 12792,
+            "Reshma": 7459,
+            "Amelia Sookoo": 6084,
+            "Shivaani": 6056,
+            "Boor Paani": 5032,
+            "Tiffenii Devi": 3326,
+            "Ray Sawh U": 851
+          }
+        },
+        "16": {
+          "competition": {
+            "Randy Shiv": 21096,
+            "Rodrick Lalloo": 15643,
+            "Sonia Shiv": 8764.5,
+            "Ray Sawh U": 8722,
+            "Reshma": 7620,
+            "Goat InYuhThroat": 7137,
+            "Amelia Sookoo": 4212,
+            "Boor Paani": 4045,
+            "Shivaani": 2601,
+            "Tiffenii Devi": 0
+          }
+        },
+        "17": {
+          "competition": {
+            "Randy Shiv": 17778,
+            "Reshma": 14005,
+            "Goat InYuhThroat": 11776,
+            "Boor Paani": 9917,
+            "Rodrick Lalloo": 9841,
+            "Sonia Shiv": 7804,
+            "Amelia Sookoo": 6138,
+            "Shivaani": 3994,
+            "Tiffenii Devi": 0,
+            "Ray Sawh U": 0
+          }
+        },
+        "18": {
+          "competition": {
+            "Randy Shiv": 20597,
+            "Goat InYuhThroat": 14929,
+            "Sonia Shiv": 11971,
+            "Shivaani": 6272,
+            "Boor Paani": 6217.5,
+            "Amelia Sookoo": 3967,
+            "Reshma": 1773,
+            "Rodrick Lalloo": 1052,
             "Tiffenii Devi": 0,
             "Ray Sawh U": 0
           }
