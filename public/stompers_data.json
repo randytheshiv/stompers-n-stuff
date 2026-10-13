@@ -1,4 +1,5 @@
-"currentMonth": "october",
+{
+  "currentMonth": "october",
   "months": {
     "september": {
       "challenge": {
@@ -874,7 +875,7 @@
         "startDate": "2026-10-01",
         "endDate": "2026-10-31",
         "totalDays": 31,
-        "currentDay": 11,
+        "currentDay": 12,
         "prizePool": 500,
         "prizes": {
           "1st": 150,
@@ -960,6 +961,12 @@
           "condition": "Partly Cloudy",
           "emoji": "⛅",
           "humidity": 62
+        },
+        "12": {
+          "temp": 71,
+          "condition": "Sunny",
+          "emoji": "☀️",
+          "humidity": 55
         }
       },
       "dailyData": {
@@ -1136,6 +1143,20 @@
             "Reshma": 1773,
             "Rodrick Lalloo": 1052,
             "Tiffenii Devi": 0,
+            "Ray Sawh U": 0
+          }
+        },
+        "12": {
+          "competition": {
+            "Randy Shiv": 22199,
+            "Tiffenii Devi": 13614,
+            "Rodrick Lalloo": 12371,
+            "Reshma": 10616,
+            "Shivaani": 9748.5,
+            "Sonia Shiv": 5313,
+            "Goat InYuhThroat": 5157,
+            "Boor Paani": 3890,
+            "Amelia Sookoo": 3564,
             "Ray Sawh U": 0
           }
         }
