@@ -1,4 +1,4 @@
-
+{
   "currentMonth": "october",
   "months": {
     "september": {
@@ -875,7 +875,7 @@
         "startDate": "2026-10-01",
         "endDate": "2026-10-31",
         "totalDays": 31,
-        "currentDay": 14,
+        "currentDay": 16,
         "prizePool": 500,
         "prizes": {
           "1st": 150,
@@ -979,6 +979,18 @@
           "condition": "Sunny",
           "emoji": "☀️",
           "humidity": 54
+        },
+        "15": {
+          "temp": 69,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 62
+        },
+        "16": {
+          "temp": 73,
+          "condition": "Sunny",
+          "emoji": "☀️",
+          "humidity": 52
         }
       },
       "dailyData": {
@@ -1198,6 +1210,34 @@
             "Goat InYuhThroat": 6052,
             "Boor Paani": 3552,
             "Amelia Sookoo": 3182
+          }
+        },
+        "15": {
+          "competition": {
+            "Rodrick Lalloo": 21312.5,
+            "Randy Shiv": 13890.5,
+            "Goat InYuhThroat": 12648,
+            "Reshma": 11252,
+            "Tiffenii Devi": 6058,
+            "Ray Sawh U": 5998,
+            "Boor Paani": 5490,
+            "Sonia Shiv": 3388,
+            "Shivaani": 2749,
+            "Amelia Sookoo": 2566
+          }
+        },
+        "16": {
+          "competition": {
+            "Randy Shiv": 20756.5,
+            "Rodrick Lalloo": 17417,
+            "Goat InYuhThroat": 11710,
+            "Sonia Shiv": 8259,
+            "Reshma": 7425,
+            "Tiffenii Devi": 6390,
+            "Boor Paani": 5345,
+            "Shivaani": 4315,
+            "Amelia Sookoo": 2756,
+            "Ray Sawh U": 67
           }
         }
       }
