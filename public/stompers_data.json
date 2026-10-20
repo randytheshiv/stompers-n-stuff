@@ -1,4 +1,4 @@
-
+{
   "currentMonth": "october",
   "months": {
     "september": {
@@ -875,7 +875,7 @@
         "startDate": "2026-10-01",
         "endDate": "2026-10-31",
         "totalDays": 31,
-        "currentDay": 16,
+        "currentDay": 19,
         "prizePool": 500,
         "prizes": {
           "1st": 150,
@@ -991,6 +991,24 @@
           "condition": "Sunny",
           "emoji": "☀️",
           "humidity": 52
+        },
+        "17": {
+          "temp": 71,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 59
+        },
+        "18": {
+          "temp": 68,
+          "condition": "Partly Cloudy",
+          "emoji": "⛅",
+          "humidity": 62
+        },
+        "19": {
+          "temp": 71,
+          "condition": "Sunny",
+          "emoji": "☀️",
+          "humidity": 55
         }
       },
       "dailyData": {
@@ -1238,6 +1256,48 @@
             "Shivaani": 4315,
             "Amelia Sookoo": 2756,
             "Ray Sawh U": 67
+          }
+        },
+        "17": {
+          "competition": {
+            "Goat InYuhThroat": 12926,
+            "Randy Shiv": 10310,
+            "Shivaani": 6374,
+            "Boor Paani": 6211,
+            "Sonia Shiv": 5498,
+            "Rodrick Lalloo": 4769,
+            "Tiffenii Devi": 3552,
+            "Amelia Sookoo": 2343,
+            "Reshma": 1693,
+            "Ray Sawh U": 0
+          }
+        },
+        "18": {
+          "competition": {
+            "Randy Shiv": 11956,
+            "Goat InYuhThroat": 8426,
+            "Boor Paani": 8266,
+            "Amelia Sookoo": 5243,
+            "Rodrick Lalloo": 4977,
+            "Sonia Shiv": 4731,
+            "Tiffenii Devi": 4174,
+            "Shivaani": 2994,
+            "Reshma": 19,
+            "Ray Sawh U": 0
+          }
+        },
+        "19": {
+          "competition": {
+            "Rodrick Lalloo": 18566,
+            "Randy Shiv": 12121,
+            "Goat InYuhThroat": 10179.5,
+            "Shivaani": 8496,
+            "Boor Paani": 7885,
+            "Reshma": 7146,
+            "Amelia Sookoo": 6575,
+            "Sonia Shiv": 4947,
+            "Tiffenii Devi": 0,
+            "Ray Sawh U": 0
           }
         }
       }
